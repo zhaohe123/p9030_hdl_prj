@@ -20,6 +20,8 @@ set_property  -dict {PACKAGE_PIN  A17   IOSTANDARD LVCMOS25  IOB TRUE} [get_port
 set_property  -dict {PACKAGE_PIN  A16   IOSTANDARD LVCMOS25  IOB TRUE} [get_ports hdmi_data[15]]
 
 # spdif
+#debug test on brach debug_dri
+#debug test on branch debug_01
 
 set_property  -dict {PACKAGE_PIN  A19   IOSTANDARD LVCMOS25} [get_ports spdif]
 
